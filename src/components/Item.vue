@@ -1,7 +1,7 @@
 <template>
   <div>
      <div class="item">
-       <a href="">
+       <a class="photo-link" @click="linkProduct(item.slug, item.category)">
          <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -14,7 +14,7 @@
         </div>
        </a>
         <div class="item-title">
-          <a href="">{{item.title}}</a>
+          <a @click="linkProduct(item.slug, item.category)">{{item.title}}</a>
         </div>
         <div class="item-price">
           {{item.price}}$
@@ -51,10 +51,14 @@ export default {
   padding: 20px;
   border: 1px solid #f5f5f5;
   border-radius: 4px;
+  .photo-link{
+    cursor: pointer;
+  }
   .item-title{
     margin-top: 10px;
     margin-bottom: 10px;
     a{
+      cursor: pointer;
       &:hover{
         opacity: 0.7;
       }

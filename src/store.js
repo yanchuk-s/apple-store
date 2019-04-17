@@ -203,6 +203,15 @@ export default new Vuex.Store({
         }
       });
       return items
+    },
+    searchGet: state => text => {
+      let items = []
+      state.products.forEach(function(item) {
+        if(item.title.toLowerCase().includes(text.toLowerCase())){
+          items.push(item)
+        }
+      });
+      return items
     }
   },
   mutations: {

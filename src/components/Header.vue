@@ -56,7 +56,8 @@
               </li>
             </ul>
           </nav>
-          <div>
+          <div class="dflex">
+             <Search />
              <HeaderCart />
           </div>
         </div>
@@ -67,10 +68,12 @@
 
 <script>
 import HeaderCart from '@/components/HeaderCart.vue'
+import Search from '@/components/Search.vue'
 export default {
   name: 'Header',
   components: {
-    HeaderCart
+    HeaderCart,
+    Search
   },
   data() {
     return {
