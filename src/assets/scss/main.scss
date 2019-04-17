@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  width: 100%;
+  font-family: 'Montserrat','Roboto' sans-serif!important;
+  background-color: #fff!important;
+  height: 100%
+}
+
+html{
+  height: 100%;
+}
+
+.dflex{
+  display: flex;
+}
+
+.container{
+  padding-right: 15px!important;
+  padding-left: 15px!important;
+  margin-right: auto!important;
+  margin-left: auto!important;
+  max-width: 100%!important;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.bg-nav{
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+}
+
+h1,h2,h3,h4,h5,p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul{
+  list-style: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 991px){
+  .flex.xs3 {
+    flex-basis: 50%!important;
+    max-width: 50%!important;
+  }
+}
+
+@media screen and (max-width: 475px){
+  .flex.xs3 {
+    flex-basis: 100%!important;
+    max-width: 100%!important;
+  }
+}
