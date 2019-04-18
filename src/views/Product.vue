@@ -2,9 +2,8 @@
   <div class="product-wrp">
     <transition name="fade">
       <div v-if="updateVisible" class="loader-prod">
-        <div class="spinner">
-          <div class="double-bounce1"></div>
-          <div class="double-bounce2"></div>
+        <div class="linear-activity">
+            <div class="indeterminate"></div>
         </div>
       </div>
     </transition>
@@ -60,7 +59,7 @@ export default {
 
 <style lang="scss">
 .product-wrp{
-  height: 100%;
+  padding-top: 30px;
   position: relative;
   .loader-prod{
     position: absolute;
@@ -68,10 +67,6 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(250,250,250,0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
 
@@ -90,45 +85,55 @@ export default {
   opacity: 0;
 }
 
-.spinner {
-  width: 40px;
-  height: 40px;
-
-  position: relative;
-  margin: 100px auto;
+.linear-activity {
+    overflow: hidden;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    margin-top: 15px;
 }
 
-.double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #333;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
+.indeterminate {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+.indeterminate:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #000;
+    animation: indeterminate_first 1.5s infinite ease-out;
 }
 
-@-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
+.indeterminate:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #000;
+    animation: indeterminate_second 1.5s infinite ease-in;
 }
 
-@keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
+@keyframes indeterminate_first {
+    0% {
+        left: -100%;
+        width: 100%;
+    }
+    100% {
+        left: 100%;
+        width: 10%;
+    }
+}
+
+@keyframes indeterminate_second {
+    0% {
+        left: -150%;
+        width: 100%;
+    }
+    100% {
+        left: 100%;
+        width: 10%;
+    }
 }
 </style>

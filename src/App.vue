@@ -21,7 +21,7 @@ export default {
 @import './assets/scss/main.scss';
 #app {
   font-family: 'Montserrat', sans-serif!important;
-  height: 100%;
+  min-height: 100%;
   // -webkit-font-smoothing: antialiased;
   // -moz-osx-font-smoothing: grayscale;
 }

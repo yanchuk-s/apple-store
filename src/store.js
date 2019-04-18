@@ -182,7 +182,177 @@ export default new Vuex.Store({
           }
         ],
         description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
-      }
+      },
+      {
+        id: 5542,
+        title: 'iPad Wi-FI 32GB Space Gray',
+        slug: 'iPad-32GB-Space-Gray',
+        category: 3,
+        price: 650,
+        generalPhoto: 'https://i1.rozetka.ua/goods/8969649/58619866_images_8969649162.png',
+        photos: [
+          {
+            src: 'https://i1.rozetka.ua/goods/8969649/58619866_images_8969649162.png'
+          },
+          {
+            src: 'https://i1.rozetka.ua/goods/8969649/58619866_images_8969649967.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 55402,
+        title: 'iPad Wi-FI 128GB Space Gray',
+        slug: 'iPad-128GB-Space-Gray',
+        category: 3,
+        price: 750,
+        generalPhoto: 'https://i2.rozetka.ua/goods/8969684/58620028_images_8969684932.jpg',
+        photos: [
+          {
+            src: 'https://i2.rozetka.ua/goods/8969684/58620028_images_8969684932.jpg'
+          },
+          {
+            src: 'https://i1.rozetka.ua/goods/8969684/58620028_images_8969684162.png'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 55412,
+        title: ' iPad Pro 10.5" Wi-Fi 64GB Gold',
+        slug: 'iPad-pro-gold',
+        category: 3,
+        price: 1050,
+        generalPhoto: 'https://i2.rozetka.ua/goods/3540777/copy_apple_ipad_pro_10_5_mqdx2rk_a_5aa92a27606f0_images_3540777159.jpg',
+        photos: [
+          {
+            src: 'https://i2.rozetka.ua/goods/3540777/copy_apple_ipad_pro_10_5_mqdx2rk_a_5aa92a27606f0_images_3540777159.jpg'
+          },
+          {
+            src: 'https://i2.rozetka.ua/goods/3540778/copy_apple_ipad_pro_10_5_mqdx2rk_a_5aa92a27606f0_images_3540778535.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 554102,
+        title: 'iPad Pro 10.5" Wi-Fi 64GB Space Gray',
+        slug: 'iPad-pro-space-gray',
+        category: 3,
+        price: 1050,
+        generalPhoto: 'https://i1.rozetka.ua/goods/3640683/35450554_images_3640683913.jpg',
+        photos: [
+          {
+            src: 'https://i1.rozetka.ua/goods/3640683/35450554_images_3640683913.jpg'
+          },
+          {
+            src: 'https://i1.rozetka.ua/goods/3640686/35450554_images_3640686454.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 23551,
+        title: 'Watch Series 4 GPS+CELLULAR 40mm',
+        slug: 'Watch-Series-40mm',
+        category: 4,
+        price: 960,
+        generalPhoto: 'https://i1.rozetka.ua/goods/9679518/66108056_images_9679518695.jpg',
+        photos: [
+          {
+            src: 'https://i1.rozetka.ua/goods/9679518/66108056_images_9679518695.jpg'
+          },
+          {
+            src: 'https://i2.rozetka.ua/goods/9679519/66108056_images_9679519157.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 33551,
+        title: 'WATCH Series 4 44mm Gold',
+        slug: 'Watch-Series-44mm-gold',
+        category: 4,
+        price: 520,
+        generalPhoto: 'https://i1.rozetka.ua/goods/8969643/58619752_images_8969643569.jpg',
+        photos: [
+          {
+            src: 'https://i1.rozetka.ua/goods/8969643/58619752_images_8969643569.jpg'
+          },
+          {
+            src: 'https://i2.rozetka.ua/goods/8969644/58619752_images_8969644367.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 23559,
+        title: 'WATCH Series 4 38mm Space Gray',
+        slug: 'Watch-Series-38mm-spacegray',
+        category: 4,
+        price: 420,
+        generalPhoto: 'https://i1.rozetka.ua/goods/7509388/54781818_images_7509388686.jpg',
+        photos: [
+          {
+            src: 'https://i1.rozetka.ua/goods/7509388/54781818_images_7509388686.jpg'
+          },
+          {
+            src: 'https://i1.rozetka.ua/goods/7509389/54781818_images_7509389016.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 10559,
+        title: 'WATCH Series 4 44mm Space Gray',
+        slug: 'Watch-Series-44mm-spacegray',
+        category: 4,
+        price: 380,
+        generalPhoto: 'https://i1.rozetka.ua/goods/8969682/58619986_images_8969682195.jpg',
+        photos: [
+          {
+            src: 'https://i1.rozetka.ua/goods/8969682/58619986_images_8969682195.jpg'
+          },
+          {
+            src: 'https://i1.rozetka.ua/goods/8969683/58619986_images_8969683042.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 14459,
+        title: 'Apple iMac Pro 27" 2017',
+        slug: 'iMac-Pro-27-2017',
+        category: 1,
+        price: 11000,
+        generalPhoto: 'https://i2.rozetka.ua/goods/6945902/51613278_images_6945902706.jpg',
+        photos: [
+          {
+            src: 'https://i2.rozetka.ua/goods/6945902/51613278_images_6945902706.jpg'
+          },
+          {
+            src: 'https://i1.rozetka.ua/goods/6945903/51613278_images_6945903318.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
+      {
+        id: 10559,
+        title: 'Apple iMac Pro 27" Retina 5K',
+        slug: 'iMac-Pro-27-Retina',
+        category: 1,
+        price: 2400,
+        generalPhoto: 'https://i2.rozetka.ua/goods/3674552/copy_apple_mned2ua_a_5ab3d2e23eb65_images_3674552098.jpg',
+        photos: [
+          {
+            src: 'https://i2.rozetka.ua/goods/3674552/copy_apple_mned2ua_a_5ab3d2e23eb65_images_3674552098.jpg'
+          },
+          {
+            src: 'https://i1.rozetka.ua/goods/3674553/copy_apple_mned2ua_a_5ab3d2e23eb65_images_3674553008.jpg'
+          }
+        ],
+        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+      },
     ]
   },
   getters: {

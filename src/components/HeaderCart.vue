@@ -17,6 +17,7 @@ export default {
 
 <style lang="scss">
 .header-cart{
+  opacity: .8;
   .header-cart-isVisible{
     background: none;
     border: none;
@@ -28,6 +29,9 @@ export default {
       min-width: 22px;
       height: 22px;
     }
+  }
+  &:hover{
+    opacity: 1;
   }
 }
 </style>

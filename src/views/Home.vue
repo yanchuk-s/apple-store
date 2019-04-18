@@ -11,7 +11,9 @@
         </h3>
         </div>
          <span>
-          <a href="">Buy</a>
+           <router-link tag="a" to="/iphone">
+            <a>Buy</a>
+           </router-link>
          </span>
       </div>
       <div class="wrp-bg-desc">
@@ -32,7 +34,9 @@
         </h3>
         </div>
          <span>
-          <a href="">Buy</a>
+          <router-link tag="a" to="/iphone">
+            <a>Buy</a>
+           </router-link>
          </span>
       </div>
       <div class="wrp-bg-desc">
@@ -54,7 +58,9 @@
                 </h3>
               </div>
               <span>
-                <a href="">Buy</a>
+                <router-link tag="a" to="/iphone">
+                  <a>Buy</a>
+                </router-link>
               </span>
             </div>
             <div class="wrp-bg-desc">
@@ -73,7 +79,9 @@
                 </h3>
               </div>
               <span>
-                <a href="">Buy</a>
+                <router-link tag="a" to="/ipad">
+                  <a>Buy</a>
+                </router-link>
               </span>
             </div>
             <div class="wrp-bg-desc">
@@ -95,7 +103,9 @@
         </h3>
         </div>
          <span>
-          <a href="">Buy</a>
+          <router-link tag="a" to="/mac">
+            <a>Buy</a>
+           </router-link>
          </span>
       </div>
       <div class="wrp-bg-desc">
@@ -114,7 +124,9 @@
         </h3>
         </div>
          <span>
-          <a href="">Buy</a>
+          <router-link tag="a" to="/mac">
+            <a>Buy</a>
+           </router-link>
          </span>
       </div>
       <div class="wrp-bg-desc">
@@ -135,7 +147,9 @@
         </h3>
         </div>
          <span>
-          <a href="">Buy</a>
+          <router-link tag="a" to="/watch">
+            <a>Buy</a>
+           </router-link>
          </span>
       </div>
       <div class="wrp-bg-desc">

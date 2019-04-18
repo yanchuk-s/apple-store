@@ -39,5 +39,12 @@ export default new Router({
       props: true,
       component: () => import('./views/Product.vue')
     },
-  ]
+  ],
+  scrollBehavior () {
+    return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({ x: 0, y: 0 })
+    }, 500)
+  })
+  }
 })
