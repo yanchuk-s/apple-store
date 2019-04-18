@@ -37,7 +37,6 @@ export default {
   methods: {
     linkProduct: function (slug,category) {
       let slugCategory = this.$store.getters.getCategoryById(category)
-      console.log(slug, slugCategory.slug)
       this.$router.push({ name: 'product', params: { category: slugCategory.slug, slug: slug } })
     }
   }

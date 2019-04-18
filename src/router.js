@@ -34,7 +34,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Watch.vue')
     },
     {
-      path: '/:category/product/:slug',
+      path: '/:category/:slug',
       name: 'product',
       component: () => import('./views/Product.vue')
     },
