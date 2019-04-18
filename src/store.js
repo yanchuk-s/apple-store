@@ -212,6 +212,9 @@ export default new Vuex.Store({
         }
       });
       return items
+    },
+    getProductBySlug: state => slug => {
+      return state.products.find(product => product.slug === slug)
     }
   },
   mutations: {

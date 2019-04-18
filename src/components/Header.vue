@@ -131,6 +131,7 @@ header{
         left: 0;
         top: 0;
         height: 100%;
+        z-index: 11;
         .header-mob-nav{
           height: 50px;
           display: flex;
@@ -151,6 +152,7 @@ header{
           width: 100%;
           display: flex;
           flex-direction: column;
+          padding: 0;
           li{
             width: 100%;
             a{

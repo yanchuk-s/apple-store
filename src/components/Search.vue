@@ -13,7 +13,7 @@
       </a>
       <transition name="slide-fade">
         <div v-if="visible" class="search-input">
-          <input v-model="search" type="text" placeholder="search ...">
+          <input v-model="search" type="text" placeholder="Search ...">
         </div>
       </transition>
        <transition name="slide-fade">
@@ -85,7 +85,7 @@ export default {
     .result-search{
       position: absolute;
       background: #fff;
-      right: 26px;
+      right: 0;
       top: 80px;
       height: auto;
       width: 320px;
@@ -93,7 +93,7 @@ export default {
       -webkit-box-shadow: -1px 7px 24px -12px rgba(0,0,0,0.75);
       -moz-box-shadow: -1px 7px 24px -12px rgba(0,0,0,0.75);
       box-shadow: -1px 7px 24px -12px rgba(0,0,0,0.75);
-      max-height: 400px;
+      max-height: 420px;
       overflow-y: scroll;
       .search-item{
         width: 100%;
@@ -133,7 +133,7 @@ export default {
     .search-input{
       position: absolute;
       background: #313131;
-      right: 26px;
+      right: 0;
       top: 37px;
       width: 320px;
       height: 40px;
@@ -151,6 +151,25 @@ export default {
     }
   }
 
+@media screen and (max-width: 375px){
+  .search .search-input{
+    width: 290px;
+  }
+
+  .search .result-search{
+     width: 290px;
+  }
+}
+
+@media screen and (max-width: 340px){
+  .search .search-input{
+    right: -25px;
+  }
+
+  .search .result-search{
+     right: -25px;
+  }
+}
   
 .result-search::-webkit-scrollbar-button {
     background-image: url('');

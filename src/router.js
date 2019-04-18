@@ -36,6 +36,7 @@ export default new Router({
     {
       path: '/:category/:slug',
       name: 'product',
+      props: true,
       component: () => import('./views/Product.vue')
     },
   ]
