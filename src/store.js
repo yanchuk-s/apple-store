@@ -130,7 +130,7 @@ export default new Vuex.Store({
             src: 'https://i2.rozetka.ua/goods/8969636/47132360_images_8969636282.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Технология Touch ID позволяет защитить информацию идеальным паролем — вашим отпечатком пальца. Вы можете мгновенно разблокировать телефон и войти в любимые приложения. Touch ID поддерживает функцию Apple Pay, которая позволяет оплачивать покупки в магазинах, приложениях и на веб-сайтах.'
       },
       {
         id: 9463,
@@ -164,7 +164,7 @@ export default new Vuex.Store({
             src: 'https://i2.rozetka.ua/goods/9908634/66921029_images_9908634063.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Как сделать iPhone из прочного стекла, чтобы он поддерживал беспроводную зарядку? Мы создали совершенно новое стекло. Укрепили его с помощью стального основания и рамки из алюминия, применяющегося в аэрокосмической отрасли. И подогнали элементы корпуса с точностью до микрона, чтобы обеспечить защиту от воды.'
       },
       {
         id: 9400,
@@ -181,7 +181,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/11096498/73503993_images_11096498163.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Впервые передняя и задняя панели iPhone выполнены из стекла. Самая популярная камера усовершенствована. Установлен самый умный и мощный процессор, когда-либо созданный для iPhone. Без проводов процесс зарядки становится элементарным. А дополненная реальность открывает невиданные до сих пор возможности. iPhone 8. Новое поколение iPhone.'
       },
       {
         id: 5542,
@@ -198,7 +198,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/8969649/58619866_images_8969649967.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
         id: 55402,
@@ -215,7 +215,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/8969684/58620028_images_8969684162.png'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
         id: 55412,
@@ -232,7 +232,7 @@ export default new Vuex.Store({
             src: 'https://i2.rozetka.ua/goods/3540778/copy_apple_ipad_pro_10_5_mqdx2rk_a_5aa92a27606f0_images_3540778535.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
         id: 554102,
@@ -249,7 +249,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/3640686/35450554_images_3640686454.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
         id: 23551,
@@ -266,7 +266,7 @@ export default new Vuex.Store({
             src: 'https://i2.rozetka.ua/goods/9679519/66108056_images_9679519157.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
         id: 33551,
@@ -283,7 +283,7 @@ export default new Vuex.Store({
             src: 'https://i2.rozetka.ua/goods/8969644/58619752_images_8969644367.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
         id: 23559,
@@ -300,7 +300,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/7509389/54781818_images_7509389016.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
         id: 10559,
@@ -317,7 +317,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/8969683/58619986_images_8969683042.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
         id: 14459,
@@ -334,7 +334,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/6945903/51613278_images_6945903318.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Экран 27" IPS Retina (5120x2880) 5K LED / Intel Core i5 (3.5 - 4.1 ГГц) / RAM 8 ГБ / HDD 1 ТБ / AMD Radeon Pro 575, 4 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / кардридер / веб-камера / macOS Sierra / 9.44 кг / серебристый / клавиатура + мышь'
       },
       {
         id: 10559,
@@ -351,7 +351,7 @@ export default new Vuex.Store({
             src: 'https://i1.rozetka.ua/goods/3674553/copy_apple_mned2ua_a_5ab3d2e23eb65_images_3674553008.jpg'
           }
         ],
-        description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
+        description: 'Экран 21.5" IPS (1920x1080) LED / Intel Core i5 (2.3 - 3.6 ГГц) / RAM 8 ГБ / HDD 1 ТБ / Intel Iris Plus Graphics 640 / без ОД / LAN / Wi-Fi / Bluetooth / кардридер / веб-камера / macOS Sierra / 5.66 кг / серебристый / клавиатура + мышь'
       },
     ]
   },
