@@ -30,9 +30,9 @@
                     <div class="price-prod">
                       {{productItem.price}}$
                     </div>
-                    <div class="buy-prod">
+                    <div @click="addToCart(productItem.id)" class="buy-prod">
                       <button>Buy</button>
-                    </div> 
+                    </div>
                   </div>
                   <div class="prod-description">
                     {{productItem.description}}
@@ -158,6 +158,9 @@ export default {
   methods: {
     updateEnd: function () {
       this.updateVisible = false
+    },
+    addToCart: function(id){
+      this.$store.dispatch('addTocart', id)
     }
   }
 }

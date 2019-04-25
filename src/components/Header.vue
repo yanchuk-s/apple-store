@@ -137,7 +137,7 @@ header{
         width: 100%;
         left: 0;
         top: 0;
-        height: 100%;
+        height: 100vh;
         z-index: 11;
         .header-mob-nav{
           height: 50px;
@@ -224,6 +224,9 @@ header{
 }
 
 @media screen and (max-width: 600px){
+header .dflex .logo{
+  margin-left: 20px;
+}
 header{
   .dflex{
     .mobile-nav{

@@ -41,7 +41,7 @@ export default new Vuex.Store({
     ],
     products: [
       {
-        id: 123,
+        id: 12342325623,
         title: 'MacBook Pro Retina 15"',
         slug: 'macBook-pro-retina-15',
         category: 1,
@@ -62,7 +62,7 @@ export default new Vuex.Store({
         description: 'Экран 15.4" IPS (2880x1800) Retina LED, глянцевый / Intel Core i7 (2.2 ГГц) / RAM 16 ГБ / SSD 256 ГБ / Intel Iris Pro Graphics / без ОД / Wi-Fi / Bluetooth / веб-камера / OS X Yosemite / 2.04 кг'
       },
       {
-        id: 1223,
+        id: 12366123,
         title: 'MacBook Air 13"',
         slug: 'macBook-air-13',
         category: 1,
@@ -80,7 +80,7 @@ export default new Vuex.Store({
         description: 'Экран 13.3" IPS (2560x1600) Retina, глянцевый / Intel Core i5-8210Y (1.6 - 3.6 ГГц) / RAM 8 ГБ / SSD 256 ГБ / Intel UHD Graphics 617 / без ОД / Wi-Fi'
       },
       {
-        id: 1223,
+        id: 1266223,
         title: 'Apple MacBook 12" Gold',
         slug: 'macBook-12-gold',
         category: 1,
@@ -98,7 +98,7 @@ export default new Vuex.Store({
         description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
       },
       {
-        id: 1263,
+        id: 12666233,
         title: 'Apple MacBook 12" Silver',
         slug: 'macBook-12-silver',
         category: 1,
@@ -116,7 +116,7 @@ export default new Vuex.Store({
         description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
       },
       {
-        id: 4463,
+        id: 4466633,
         title: 'iPhone 8 64GB Space Grey',
         slug: 'iphone-8-64GB-space-grey',
         category: 2,
@@ -133,7 +133,7 @@ export default new Vuex.Store({
         description: 'Технология Touch ID позволяет защитить информацию идеальным паролем — вашим отпечатком пальца. Вы можете мгновенно разблокировать телефон и войти в любимые приложения. Touch ID поддерживает функцию Apple Pay, которая позволяет оплачивать покупки в магазинах, приложениях и на веб-сайтах.'
       },
       {
-        id: 9463,
+        id: 94611353,
         title: 'iPhone Xs Max 512Gb',
         slug: 'iphone-xs-512GB-space-grey',
         category: 2,
@@ -150,7 +150,7 @@ export default new Vuex.Store({
         description: 'Экран 12" Retina IPS (2304x1440) LED, глянцевый / Intel Core M-5Y71 (1.3 - 2.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / Intel HD Graphics 5300 / Wi-Fi 802.11 a/b/g/n/ac / Bluetooth 4.0 / веб-камера / OS X Yosemite / 280.5x196.5x3.5-13.1 мм, 0.92 кг / золотой'
       },
       {
-        id: 9403,
+        id: 944203,
         title: 'iPhone 7 32 Gb Black',
         slug: 'iphone-7-42GB-black',
         category: 2,
@@ -167,7 +167,7 @@ export default new Vuex.Store({
         description: 'Как сделать iPhone из прочного стекла, чтобы он поддерживал беспроводную зарядку? Мы создали совершенно новое стекло. Укрепили его с помощью стального основания и рамки из алюминия, применяющегося в аэрокосмической отрасли. И подогнали элементы корпуса с точностью до микрона, чтобы обеспечить защиту от воды.'
       },
       {
-        id: 9400,
+        id: 9405420,
         title: 'IPhone 6s 32GB Space Gray',
         slug: 'iphone-6s-42GB-space-gray',
         category: 2,
@@ -184,7 +184,7 @@ export default new Vuex.Store({
         description: 'Впервые передняя и задняя панели iPhone выполнены из стекла. Самая популярная камера усовершенствована. Установлен самый умный и мощный процессор, когда-либо созданный для iPhone. Без проводов процесс зарядки становится элементарным. А дополненная реальность открывает невиданные до сих пор возможности. iPhone 8. Новое поколение iPhone.'
       },
       {
-        id: 5542,
+        id: 5512342,
         title: 'iPad Wi-FI 32GB Space Gray',
         slug: 'iPad-32GB-Space-Gray',
         category: 3,
@@ -201,7 +201,7 @@ export default new Vuex.Store({
         description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
-        id: 55402,
+        id: 556632402,
         title: 'iPad Wi-FI 128GB Space Gray',
         slug: 'iPad-128GB-Space-Gray',
         category: 3,
@@ -218,7 +218,7 @@ export default new Vuex.Store({
         description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
-        id: 55412,
+        id: 5545312,
         title: ' iPad Pro 10.5" Wi-Fi 64GB Gold',
         slug: 'iPad-pro-gold',
         category: 3,
@@ -235,7 +235,7 @@ export default new Vuex.Store({
         description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
-        id: 554102,
+        id: 5541102,
         title: 'iPad Pro 10.5" Wi-Fi 64GB Space Gray',
         slug: 'iPad-pro-space-gray',
         category: 3,
@@ -252,7 +252,7 @@ export default new Vuex.Store({
         description: 'Экран 9.7" IPS (2048x1536) емкостный Multi-Touch / Apple A10 Fusion / RAM 2 ГБ / 32 ГБ встроенной памяти / Wi-Fi / Bluetooth 4.2 / основная камера 8 Мп, фронтальная - 1.2 Мп / iOS 11 / 469 г / золотистый'
       },
       {
-        id: 23551,
+        id: 23663551,
         title: 'Watch Series 4 GPS+CELLULAR 40mm',
         slug: 'Watch-Series-40mm',
         category: 4,
@@ -269,7 +269,7 @@ export default new Vuex.Store({
         description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
-        id: 33551,
+        id: 33552151,
         title: 'WATCH Series 4 44mm Gold',
         slug: 'Watch-Series-44mm-gold',
         category: 4,
@@ -286,7 +286,7 @@ export default new Vuex.Store({
         description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
-        id: 23559,
+        id: 2355359,
         title: 'WATCH Series 4 38mm Space Gray',
         slug: 'Watch-Series-38mm-spacegray',
         category: 4,
@@ -303,7 +303,7 @@ export default new Vuex.Store({
         description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
-        id: 10559,
+        id: 10566359,
         title: 'WATCH Series 4 44mm Space Gray',
         slug: 'Watch-Series-44mm-spacegray',
         category: 4,
@@ -320,7 +320,7 @@ export default new Vuex.Store({
         description: 'Зміни, які змінюють все. Series 4 - це Apple Watch з абсолютно новим дизайном і новими технологіями. У цьому годиннику продумана кожна деталь: від просунутої архітектури процесора S4 до особливого вигину кутів в збільшеному дисплеї. Apple Watch - неймовірно персональний пристрій, який стало ще потужнішим.'
       },
       {
-        id: 14459,
+        id: 12344459,
         title: 'Apple iMac Pro 27" 2017',
         slug: 'iMac-Pro-27-2017',
         category: 1,
@@ -337,7 +337,7 @@ export default new Vuex.Store({
         description: 'Экран 27" IPS Retina (5120x2880) 5K LED / Intel Core i5 (3.5 - 4.1 ГГц) / RAM 8 ГБ / HDD 1 ТБ / AMD Radeon Pro 575, 4 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / кардридер / веб-камера / macOS Sierra / 9.44 кг / серебристый / клавиатура + мышь'
       },
       {
-        id: 10559,
+        id: 1630559,
         title: 'Apple iMac Pro 27" Retina 5K',
         slug: 'iMac-Pro-27-Retina',
         category: 1,
@@ -353,7 +353,8 @@ export default new Vuex.Store({
         ],
         description: 'Экран 21.5" IPS (1920x1080) LED / Intel Core i5 (2.3 - 3.6 ГГц) / RAM 8 ГБ / HDD 1 ТБ / Intel Iris Plus Graphics 640 / без ОД / LAN / Wi-Fi / Bluetooth / кардридер / веб-камера / macOS Sierra / 5.66 кг / серебристый / клавиатура + мышь'
       },
-    ]
+    ],
+    cart: []
   },
   getters: {
     getCategories: state => {
@@ -385,12 +386,42 @@ export default new Vuex.Store({
     },
     getProductBySlug: state => slug => {
       return state.products.find(product => product.slug === slug)
+    },
+    getCart: state => {
+      return state.cart
     }
   },
   mutations: {
-
+    localSave(state){
+      const cart = JSON.stringify(state.cart);
+      localStorage.setItem('cart', cart);
+    },
+    addTocart (state, id){
+      // console.log(id)
+      state.products.forEach(element => {
+        if(element.id == id){
+          state.cart.push(element)
+        }
+      });
+      // console.log(state.cart)
+    },
+    deleteFromCart(state, id){
+      state.cart.forEach((element, index) => {
+        if(element.id == id){
+          // console.log(element)
+          state.cart.splice(index, 1)
+        }
+      })
+    }
   },
   actions: {
-
+    addTocart({commit}, id){
+      commit('addTocart', id)
+      commit('localSave')
+    },
+    deleteFromCart({commit}, id){
+      commit('deleteFromCart', id)
+      commit('localSave')
+    }
   }
 })
