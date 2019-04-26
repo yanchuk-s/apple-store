@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 
+var VueCookie = require('vue-cookie');
+Vue.use(VueCookie);
 Vue.use(Router)
 
 export default new Router({
@@ -12,6 +14,32 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/admin',
+      name: 'admin',
+      component: () => import('./views/admin/Admin.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('./views/admin/AdminHome.vue'),
+        },
+        {
+          path: 'addproduct',
+          component: () => import('./views/admin/Addprod.vue'),
+        },
+        {
+          path: 'products',
+          component: () => import('./views/admin/Products.vue'),
+        }
+      ],
+      beforeEnter: (to, from, next) => {
+        if(VueCookie.get('login')){
+          next()
+        }else{
+          next({ path: '/login' })
+        }
+      }
     },
     {
       path: '/mac',
@@ -38,6 +66,18 @@ export default new Router({
       name: 'product',
       props: true,
       component: () => import('./views/Product.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('./views/Login.vue'),
+      beforeEnter: (to, from, next) => {
+        if(VueCookie.get('login')){
+          next({ path: '/admin' })
+        }else{
+          next()
+        }
+      }
     },
   ],
   scrollBehavior () {

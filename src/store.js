@@ -354,9 +354,16 @@ export default new Vuex.Store({
         description: 'Экран 21.5" IPS (1920x1080) LED / Intel Core i5 (2.3 - 3.6 ГГц) / RAM 8 ГБ / HDD 1 ТБ / Intel Iris Plus Graphics 640 / без ОД / LAN / Wi-Fi / Bluetooth / кардридер / веб-камера / macOS Sierra / 5.66 кг / серебристый / клавиатура + мышь'
       },
     ],
-    cart: []
+    cart: [],
+    admin: {
+        login: 'Yanchuk',
+        password: '1488'
+      }
   },
   getters: {
+    getAdmin: state => {
+      return state.admin
+    },
     getCategories: state => {
       return state.categories
     },

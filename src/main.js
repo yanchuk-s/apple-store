@@ -9,6 +9,9 @@ import Vuetify from 'vuetify'
 
 Vue.use(Vuetify)
 
+var VueCookie = require('vue-cookie');
+Vue.use(VueCookie);
+
 new Vue({
   router,
   store,

@@ -11,7 +11,7 @@
     </div>
     <span>
       <router-link tag="a" to="/watch">
-        <a>Buy</a>
+        <a>More</a>
       </router-link>
     </span>
   </div>

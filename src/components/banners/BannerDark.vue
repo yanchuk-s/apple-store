@@ -9,7 +9,7 @@
     </div>
     <span>
       <router-link tag="a" to="/mac">
-        <a>Buy</a>
+        <a>More</a>
       </router-link>
     </span>
   </div>

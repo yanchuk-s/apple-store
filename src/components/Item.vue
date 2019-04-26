@@ -20,7 +20,7 @@
           {{item.price}}$
         </div>
         <div class="item-buy">
-          <a @click="linkProduct(item.slug, item.category)">Buy</a>
+          <a @click="addToCart(item.id)">Buy</a>
         </div>
      </div>
   </div>
@@ -38,6 +38,9 @@ export default {
     linkProduct: function (slug,category) {
       let slugCategory = this.$store.getters.getCategoryById(category)
       this.$router.push({ name: 'product', params: { category: slugCategory.slug, slug: slug } })
+    },
+    addToCart: function(id){
+      this.$store.dispatch('addTocart', id)
     }
   }
 }

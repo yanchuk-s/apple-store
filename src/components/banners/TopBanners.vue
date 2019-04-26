@@ -12,7 +12,7 @@
         </div>
          <span>
            <router-link tag="a" to="/iphone">
-            <a>Buy</a>
+            <a>More</a>
            </router-link>
          </span>
       </div>
@@ -35,7 +35,7 @@
         </div>
          <span>
           <router-link tag="a" to="/iphone">
-            <a>Buy</a>
+            <a>More</a>
            </router-link>
          </span>
       </div>

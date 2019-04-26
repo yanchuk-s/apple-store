@@ -45,9 +45,9 @@ export default {
     }
   },
   created() {
-    // if(localStorage.getItem('cart')){
-    //   this.$store.state.cart = JSON.parse(localStorage.getItem('cart'));
-    // }
+    if(localStorage.getItem('cart')){
+      this.$store.state.cart = JSON.parse(localStorage.getItem('cart'));
+    }
   },
   computed:{
     cart() {
