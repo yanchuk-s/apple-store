@@ -356,11 +356,15 @@ export default new Vuex.Store({
     ],
     cart: [],
     admin: {
-        login: 'Yanchuk',
-        password: '1488'
-      }
+      login: 'Yanchuk',
+      password: '1488'
+    },
+    login: null
   },
   getters: {
+    getLogin: state => {
+      return state.login
+    },
     getAdmin: state => {
       return state.admin
     },
@@ -369,6 +373,9 @@ export default new Vuex.Store({
     },
     getCategoryBySlug: state => slug => {
       return state.categories.find(category => category.slug === slug)
+    },
+    getCategoryByTitle: state => title => {
+      return state.categories.find(category => category.title === title)
     },
     getCategoryById: state => id => {
       return state.categories.find(category => category.id === id)
@@ -396,6 +403,19 @@ export default new Vuex.Store({
     },
     getCart: state => {
       return state.cart
+    },
+    getAllProducts: state => category => {
+      let items = []
+      if(category == null){
+        return state.products
+      }else{
+        state.products.forEach(function(item) {
+          if(item.category == category){
+            items.push(item)
+          }
+        });
+        return items
+      }
     }
   },
   mutations: {
@@ -419,6 +439,12 @@ export default new Vuex.Store({
           state.cart.splice(index, 1)
         }
       })
+    },
+    login(state){
+      state.login = true
+    },
+    logout(state){
+      state.login = false
     }
   },
   actions: {
@@ -429,6 +455,12 @@ export default new Vuex.Store({
     deleteFromCart({commit}, id){
       commit('deleteFromCart', id)
       commit('localSave')
+    },
+    login({commit}){
+      commit('login')
+    },
+    logout({commit}){
+      commit('logout')
     }
   }
 })

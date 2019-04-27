@@ -43,7 +43,8 @@ export default {
           this.login = ''
           this.password = ''
           this.$cookie.set('login', 'true', 1);
-          this.$router.push({ name: 'admin',})
+          this.$store.dispatch('login')
+          this.$router.push({ name: 'adminhome',})
         }else{
           this.error = true
         }

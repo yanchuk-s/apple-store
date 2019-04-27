@@ -22,6 +22,7 @@ export default new Router({
       children: [
         {
           path: '',
+          name: 'adminhome',
           component: () => import('./views/admin/AdminHome.vue'),
         },
         {
@@ -73,7 +74,7 @@ export default new Router({
       component: () => import('./views/Login.vue'),
       beforeEnter: (to, from, next) => {
         if(VueCookie.get('login')){
-          next({ path: '/admin' })
+          next({ name: 'adminhome' })
         }else{
           next()
         }
