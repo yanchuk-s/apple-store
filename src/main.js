@@ -9,6 +9,8 @@ import Vuetify from 'vuetify'
 
 Vue.use(Vuetify)
 
+import Notifications from 'vue-notification'
+Vue.use(Notifications)
 var VueCookie = require('vue-cookie');
 Vue.use(VueCookie);
 

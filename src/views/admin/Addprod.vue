@@ -146,7 +146,16 @@ export default {
               slug: slug
             }
 
-            console.log(product)
+            this.$store.dispatch('addProd', product)
+
+            this.$notify({
+              group: 'foo',
+              title: 'Add product',
+              text: 'Product add',
+              duration: 3000,
+              speed: 1000
+            });
+            // console.log(product)
 
             this.title = ''
             this.price = ''

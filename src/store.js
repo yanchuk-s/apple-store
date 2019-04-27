@@ -445,9 +445,15 @@ export default new Vuex.Store({
     },
     logout(state){
       state.login = false
+    },
+    addProd(state, product){
+      state.products.push(product)
     }
   },
   actions: {
+    addProd({commit}, product){
+      commit('addProd', product)
+    },
     addTocart({commit}, id){
       commit('addTocart', id)
       commit('localSave')

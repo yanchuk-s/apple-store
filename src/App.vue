@@ -4,6 +4,7 @@
     <transition name="page" mode="out-in">
       <router-view/>
     </transition>
+    <notifications group="foo" position="bottom right" />
   </div>
 </template>
 
