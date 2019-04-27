@@ -107,6 +107,7 @@ export default {
     },
     deleteInput: function (index) {
       this.photos.splice(index, 1)
+      this.fillURL = false
     },
     addProd: function(){
       let slug = this.slug(this.title)
@@ -131,7 +132,11 @@ export default {
           if(error == false){
             this.fillURL = false
             let categoryId = this.$store.getters.getCategoryByTitle(this.category)
+            let min=10;
+            let max=1000000;
+            let random = Math.floor(Math.random() * (+max - +min)) + +min;
             let product = {
+              id: random,
               title: this.title,
               price: this.price,
               description: this.description,
@@ -148,7 +153,7 @@ export default {
             this.description = ''
             this.photos = [
               {
-                url: ''
+                src: ''
               }
             ]
             this.category = ''
