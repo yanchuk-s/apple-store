@@ -47,6 +47,9 @@ export default {
       contentVisible: true
     }
   },
+   mounted() {
+     this.$on('deleteloader', this.deleteloader);
+  },
   created(){
     this.categoriesList = this.$store.getters.getCategories
   },
@@ -66,6 +69,10 @@ export default {
       this.updateVisible = true
       this.contentVisible = false
       this.category = id
+    },
+    deleteloader: function () {
+       this.updateVisible = true
+       this.contentVisible = false
     }
   }
 }

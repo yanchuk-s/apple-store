@@ -24,7 +24,7 @@
             <a @click="edit(item.id)">Edit</a>
           </div>
           <div class="item-delete">
-            <a @click="addToCart(item.id)">Delete</a>
+            <a @click="deleteProduct(item.id)">Delete</a>
           </div>
         </div>
      </div>
@@ -49,6 +49,19 @@ export default {
     },
     edit: function (id) {
        this.$router.push({ name: 'edit', params: { id: id } })
+    },
+    deleteProduct: function (id) {
+      // console.log(id)
+      this.$parent.$emit('deleteloader');
+
+      this.$store.dispatch('deleteProduct', id)
+      this.$notify({
+        group: 'foo',
+        title: 'Delete product',
+        text: 'Product delete',
+        duration: 3000,
+        speed: 1000
+      });
     }
   }
 }

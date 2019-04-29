@@ -463,9 +463,19 @@ export default new Vuex.Store({
           prod.category = product.category
         }
       });
+    },
+    deleteProduct(state, id){
+        state.products.forEach((prod, index) => {
+          if(prod.id == id){
+            state.products.splice(index, 1)
+          }
+        })
     }
   },
   actions: {
+    deleteProduct({commit}, id){
+      commit('deleteProduct', id)
+    },
     editProduct({commit}, product){
       commit('editProduct', product)
     },

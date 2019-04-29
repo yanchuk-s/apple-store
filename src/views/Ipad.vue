@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="no-prod" v-if="items.length < 1">
+      No products
+    </div>
    <v-container grid-list-md text-xs-center>
     <v-layout row wrap>
       <v-flex v-for="(product, index) in items" :key="index" xs3>

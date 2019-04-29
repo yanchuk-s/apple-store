@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div v-if="items.length < 1">
+      No products
+    </div>
    <v-container grid-list-md text-xs-center>
     <v-layout row wrap>
       <v-flex v-for="(product, index) in items" :key="index" xs3>
@@ -25,6 +28,7 @@ export default {
   created() {
     let categoryId = this.$store.getters.getCategoryBySlug('iphone')
     this.items = this.$store.getters.getProductsByCategory(categoryId.id)
+    // console.log(this.items.length)
   },
   methods: {
 
