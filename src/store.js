@@ -416,6 +416,9 @@ export default new Vuex.Store({
         });
         return items
       }
+    },
+    getProductById: state => id =>{
+      return state.products.find(product => product.id == id)
     }
   },
   mutations: {
@@ -448,9 +451,24 @@ export default new Vuex.Store({
     },
     addProd(state, product){
       state.products.push(product)
+    },
+    editProduct(state, product){
+      state.products.forEach((prod, index) => {
+        if(prod.id == product.id){
+          prod.title = product.title
+          prod.price = product.price
+          prod.description = product.description
+          prod.generalPhoto = product.generalPhoto
+          prod.photos = product.photos
+          prod.category = product.category
+        }
+      });
     }
   },
   actions: {
+    editProduct({commit}, product){
+      commit('editProduct', product)
+    },
     addProd({commit}, product){
       commit('addProd', product)
     },

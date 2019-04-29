@@ -30,8 +30,9 @@ export default new Router({
           component: () => import('./views/admin/Addprod.vue'),
         },
         {
-          path: 'products',
-          component: () => import('./views/admin/Products.vue'),
+          path: 'edit/:id',
+          name: 'edit',
+          component: () => import('./views/admin/Edit.vue'),
         }
       ],
       beforeEnter: (to, from, next) => {

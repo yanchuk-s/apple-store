@@ -21,7 +21,7 @@
         </div>
         <div class="item-admin-btns">
           <div class="item-edit">
-            <a @click="addToCart(item.id)">Edit</a>
+            <a @click="edit(item.id)">Edit</a>
           </div>
           <div class="item-delete">
             <a @click="addToCart(item.id)">Delete</a>
@@ -46,6 +46,9 @@ export default {
     },
     addToCart: function(id){
       this.$store.dispatch('addTocart', id)
+    },
+    edit: function (id) {
+       this.$router.push({ name: 'edit', params: { id: id } })
     }
   }
 }
